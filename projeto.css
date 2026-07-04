@@ -1,0 +1,268 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: chartreuse;
+}
+
+:root {
+    --principal: black;
+    --title: #007c32;
+    --backgrou-cx:#090909;
+    --card: rgb(60, 90, 103);
+    --txt:chartreuse;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    background-color:var(--backgrou-cx);
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 1000px;
+   
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+}
+
+.h2title{
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 500px;
+    font-size: 30px;
+    font-family: "Calistoga";
+    font-weight: 300;
+    font-style: normal;
+    color:white;
+    background-color: var(--backgrou-cx);
+}
+
+.projeto{
+   margin-top: 10px;
+ 
+}
+
+.projeto-info{
+    margin-top: 20px;
+    margin:5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.title-project{
+    color:var(--title);
+}
+
+p{
+    margin: auto;
+    margin-top: 5px;
+    background-color: #090909;
+    padding: 5px;
+    border-radius: 10px;
+    max-width: 40ch;
+    margin-left: 5px;
+}
+
+span {
+    color: black;
+    background-color: greenyellow;
+}
+
+.title-link{
+    margin-top: 10px;
+    color: var(--title);
+    font-family: "Calistoga";
+    font-size: 25px;
+}
+
+.link{
+    display: inline-block;
+    margin-top:5px;
+    text-decoration: none;
+    font-size: 20px;
+    background-color:white;
+    color: black;
+    padding: 3px;
+    border-radius: 10px;
+}
+
+.link:hover{
+   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+   transform: scale(1.05);
+   background-color: var(--title);
+   color: white;
+   box-shadow:
+        0 6px 6px #000000,
+        0 8px 16px #222222,
+        0 12px 30px #444444;
+}
+
+.projeto-img{
+    width: 300px;
+  height: 260px;
+  overflow: hidden; /* Crucial: impede que a imagem "vaze" ao crescer */
+  border-radius: 8px;
+}
+
+img {
+    width: 310px;
+    height: 260px;
+    padding: 5px;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+img:hover{
+transform: scale(1.1);
+}
+
+
+hr {
+    height: 2px;
+    background-color: var(--title);
+    margin: 10px 0px;
+    max-width: 999px;
+}
+
+@media screen and (max-width: 480px) {
+   .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow-x: hidden;
+    text-align: center;
+    
+     
+   
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+}
+
+.h2title{
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 300px;
+    font-size: 30px;
+    font-family: "Calistoga";
+    font-weight: 300;
+    font-style: normal;
+    color:white;
+    background-color: var(--backgrou-cx);
+}
+
+.projetos{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.projeto{
+   margin-top: 10px;
+   
+ 
+}
+
+.projeto-info{
+    margin-top: 20px;
+    margin:5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.title-project{
+    color:var(--title);
+    font-size: 30px;
+    text-align: center;
+    
+}
+
+p{
+    margin: auto;
+    margin-top: 5px;
+    background-color:var(--backgrou-cx);
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 10px;
+    max-width: 40ch;
+    margin-left: 5px;
+}
+
+span {
+    color: black;
+    background-color: greenyellow;
+}
+
+.title-link{
+    margin-top: 10px;
+    color: var(--title);
+    font-family: "Calistoga";
+    font-size: 25px;
+     text-align: center;
+
+}
+
+.link{
+    display: inline-block;
+    margin-top:5px;
+    text-decoration: none;
+    font-size: 20px;
+    background-color:white;
+    color: black;
+    padding: 3px;
+    border-radius: 10px;
+}
+
+.link:hover{
+    background-color: var(--title);
+    color: white;
+   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+   transform: scale(1.05);
+}
+
+.projeto-img{
+    display: block;
+  justify-content: center;
+  align-items: center;
+  width: 480px;
+  height: 260px;
+  overflow: hidden; /* Crucial: impede que a imagem "vaze" ao crescer */
+  border-radius: 8px;
+}
+
+img {
+    display: flex;
+    justify-content: center;
+    width: 380px;
+
+    padding: 5px;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+img:hover{
+transform: scale(1.1);
+}
+
+
+hr {
+    height: 2px;
+    background-color: var(--title);
+    margin: 10px 0px;
+    max-width: 999px;
+}
+}
