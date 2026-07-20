@@ -1,0 +1,182 @@
+@media screen and (max-width: 480px) {
+* {
+    margin: 0;
+    padding: 0;
+    background-color: var(--pricipal);
+    overflow-x: hidden;
+}
+
+body{
+    overflow-x: hidden;
+    
+}
+
+:root{
+   /* --principal:   rgb(65, 109, 128);*/
+    --pricipal: black;
+    --title: #007c32;
+    --backgrou-cx:#090909;
+    --verde:#00ff88;
+}
+
+
+.title{
+    text-align: center;
+    font-family: "Calistoga";
+    margin-top: 20px;
+    background-color: rgb(255, 255, 255);
+    color: var(--title);
+} 
+
+.art{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.capa{
+ width: 480px;   
+ height: 200px;
+ object-fit: cover;
+}
+
+.geral{
+    display: flex;
+    flex-direction: column;
+}
+   
+    
+}
+
+.img-perfil{
+
+   
+}
+
+
+.area-perfil{
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+
+.name-perfil{
+    color: white;
+    text-align: center;
+    
+}
+
+/*informações uteis do usuario*/
+.info-user{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.alinhamento{
+    text-align: left;
+}
+
+.li-user{
+    color: white;
+    font-size: 23px;
+    
+}
+
+span{
+    color: var(--verde);
+    font-size: 25px;   
+
+}
+.a-user{
+    color: white;
+    font-size: 25px;
+}
+
+
+
+/*areas da publicações incluidos link de navegações internos*/
+.area-post{
+display: flex;
+flex-direction: column;
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+
+a{
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: 30px;
+    color: var(--title);
+}
+
+.publi{
+    display: inline-flex;
+    background-color: var(--backgrou-cx);
+    color: white;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+.posts{
+
+}
+
+.post{
+    margin-top: 15px;
+    max-width: 380px;
+    border: 2px solid #00ff88;
+    border-radius: 10px;
+}
+
+
+.info-perfil{
+   display: flex;
+   justify-content: center;
+   margin-top: 10px;
+}
+   
+
+.perfil-post{
+    width: 100px;
+    border-radius: 50%;
+    margin-left: -20px;
+    object-fit: cover;
+    background-color: #007c32;
+}
+
+.name-perfil-post{
+    margin-top: 5px;
+    margin-left: 5px;
+    color: #00ff88;
+}
+
+.assunto{
+   
+}
+
+.title-post{
+    font-size: 30px;
+    margin-left: 5px;
+    color: white;
+}
+
+.txt-post{
+    display: block;
+    padding: 5px;
+    font-size: 25px;
+    color: var(--title);
+}

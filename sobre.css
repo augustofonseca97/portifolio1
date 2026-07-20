@@ -1,0 +1,271 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: var(--pricipal);
+    overflow-x: hidden;
+}
+
+body{
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+    background-color: var(--backgrou-cx);
+}
+
+:root{
+   /* --principal:   rgb(65, 109, 128);*/
+    --pricipal: black;
+    --title: #007c32;
+    --backgrou-cx:#090909;
+    --verde:#00ff88;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 1000px;
+    
+}
+
+
+.title{
+    text-align: center;
+    font-family: "Calistoga";
+    margin-top: 20px;
+    background-color: rgb(255, 255, 255);
+    color: var(--title);
+} 
+
+.art{
+   
+    
+}
+.capa{
+    width: 1000px;
+    height: 400px;
+    object-fit: cover;
+ 
+
+}
+.img-perfil{
+     width: 200px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+
+.area-perfil{
+
+}
+
+
+.name-perfil{
+    color: white;
+    
+    
+}
+
+/*informações uteis do usuario*/
+.info-user{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-left: 10px;
+   
+   
+}
+
+.alinhamento{
+    text-align: left;
+    background-color: rgb(3, 3, 3);
+}
+
+.li-user{
+    color: white;
+    font-size: 23px;
+  
+    
+}
+
+span{
+    color: var(--verde);
+    font-size: 25px;
+    
+
+}
+.a-user{
+    color: white;
+    font-size: 25px;
+    
+}
+
+
+
+/*areas da publicações incluidos link de navegações internos*/
+.area-post{
+display: flex;
+flex-direction: column;
+margin-left: 20px;
+}
+
+.links{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+
+
+
+a{
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: 30px;
+    color: var(--title);
+}
+
+a:hover{
+    background-color: white;
+    border-radius: 10px;
+    
+}
+/*publicações*/
+.geral {
+    display: flex;
+    flex-direction: row;
+    
+}
+.publi{
+    display: inline-flex;
+    background-color: var(--backgrou-cx);
+    color: white;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+.posts{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.post{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    width: 680px;
+    border: 2px solid #00ff88;
+    border-radius: 10px;
+}
+
+.info-perfil{
+   display: flex;
+ 
+}
+   
+
+.perfil-post{
+    width: 100px;
+    padding: 5px;
+    margin-left: 5px;
+    margin-top: 5px;
+    border-radius: 50%;
+    object-fit: cover;
+    background-color: #007c32;
+}
+
+.name-perfil-post{
+    margin-top: 5px;
+    margin-left: 5px;
+    color: #00ff88;
+}
+
+.assunto{
+   
+}
+
+.title-post{
+    font-size: 30px;
+    margin-left: 5px;
+    color: white;
+}
+
+.txt-post{
+    display: block;
+    padding: 5px;
+    font-size: 25px;
+    color: var(--title);
+}
+
+@media screen and (max-width: 480px){
+    .geral{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .info-user{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .capa{
+    width: 481px;
+    height: 230px;
+    object-fit: cover;
+    
+    }
+
+    .name-perfil{
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .area-post{
+        
+    }
+
+    .links{
+        display: flex;
+        justify-content: center;
+    }
+
+    .publi{
+        text-align: left;
+    }
+
+    .posts{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .post{
+        width: 380px;
+    }
+
+    .txt-post{
+        margin-bottom: 5px;
+    }
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+

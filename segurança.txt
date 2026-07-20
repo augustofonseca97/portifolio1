@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="cursos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Calistoga&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Orbitron:wght@400..900&family=Poppins:wght@400;500;600&family=Roboto:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@300..700&display=swap"
+        rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1 class="title">Galeria de diplomas</h1>
+        </div>
+        <div class="filter-degree">
+            <label for="">Pesquise um curso pelo nome:</label>
+            <input type="search">
+            <label for="">ordenar por:</label>
+            <select name="ordenar" id="ordenar">
+                <option value=""></option>
+                <option value="a">A-Z</option>
+                <option value="a">Z-A</option>
+            </select>
+        </div>
+        <div class="area-degree">
+            <div class="degree">
+                <h2 class="title-degree">HTML-CSS Avançado</h2>
+                <img src="img/htmlecssavancado.png" alt="">
+            </div>
+            <hr>
+            <div class="degree">
+                <h2 class="title-degree">Fundamentos de Javascript</h2>
+                <img src="img/fundamentosemjavascript.png" alt="">
+            </div>
+            <hr>
+        </div>
+    </div>
+    
+</body>
+</html>
